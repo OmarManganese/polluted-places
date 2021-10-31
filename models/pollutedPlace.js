@@ -11,6 +11,6 @@ const pollutedPlaceSchema = new mongoose.Schema({
   },
 });
 
-const PollutedPlace = mongoose.model("PollutedPlace", pollutedPlaceSchema);
+const PollutedPlace = mongoose.model("polluted-place", pollutedPlaceSchema);
 
 module.exports = PollutedPlace;
