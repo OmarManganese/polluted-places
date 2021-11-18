@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A simple RESTful API, developed with Express, Mongoose(MongoDB) and Multer, for annotate the locations and and upload images of polluted places. 
+A simple RESTful API, developed with Express, Mongoose(MongoDB) and Multer, for annotate the locations and upload images of polluted places. 
 
 ### Built With
 
@@ -74,14 +74,18 @@ To get a local copy up and running follow these steps:
    ```sh
    git clone https://github.com/OmarManganese/polluted-places.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Create a .env file in the root folder and write(as in env.example)
+3. Create a .env file in the root folder and write(as in env.example)
    ```JS
     PORT = the port of your choice 
     MONGO_URI = the URI of your MongoDB database, local or online.
+   ```
+4. Run the server
+   ```sh
+    npm run start
    ```
 
 
