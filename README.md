@@ -10,7 +10,7 @@
   <h3 align="center">Polluted Places</h3>
 
   <p align="center">
-    A RESTful API for annotate the locations and and upload images of polluted places.
+    A RESTful API for annotate the locations and upload images of polluted places.
     <br />
     
 
